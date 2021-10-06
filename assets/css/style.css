@@ -43,6 +43,9 @@ body {
   color: black;
   text-decoration: none;
 }
+.c-header .c-middle-menu__link:hover {
+  color: #6e7378;
+}
 .c-header .c-right-menu {
   display: flex;
   margin-right: 20px;
@@ -60,6 +63,9 @@ body {
 .c-header .c-right-menu__link {
   color: black;
   text-decoration: none;
+}
+.c-header .c-right-menu__link:hover {
+  color: #6e7378;
 }
 .c-header .c-right-menu__icon {
   cursor: pointer;
@@ -106,6 +112,9 @@ body {
   color: #393c41;
   font-size: 1rem;
 }
+.c-main .c-main__link:hover {
+  color: #6e7378;
+}
 
 .c-footer .c-footer__innerblock {
   align-items: center;
@@ -134,12 +143,20 @@ body {
   margin: 0 10px;
   padding: 15px 0;
 }
+.c-footer .c-footer__link--dark:hover {
+  background-color: rgba(23, 26, 32, 0.6);
+  transition: 0.5s;
+}
 .c-footer .c-footer__link--light {
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 0.65);
   color: black;
   margin: 0 10px;
   padding: 15px 0;
+}
+.c-footer .c-footer__link--light:hover {
+  background-color: white;
+  transition: 0.5s;
 }
 .c-footer .c-footer__bottom {
   height: 30px;

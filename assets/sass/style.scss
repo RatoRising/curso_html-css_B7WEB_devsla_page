@@ -59,6 +59,10 @@ body {
    .c-middle-menu__link {
       color: $header-color;
       text-decoration: none;
+
+      &:hover {
+         color: $light-color;
+      }
    }
 
    .c-right-menu {
@@ -80,6 +84,10 @@ body {
    .c-right-menu__link {
       color: $header-color;
       text-decoration: none;
+
+      &:hover {
+         color: $light-color;
+      }
    }
 
    .c-right-menu__icon {
@@ -140,6 +148,10 @@ body {
    .c-main__link {
       color: $dark-color;
       font-size: 1rem;
+
+      &:hover {
+         color: $light-color;
+      }
    }
 }
 
@@ -177,6 +189,11 @@ body {
       color: white;
       margin: 0 10px;
       padding: 15px 0;
+
+      &:hover {
+         background-color: rgba($btn-dark, .6);
+         transition: .5s;
+      }
    }
 
    .c-footer__link--light {
@@ -185,6 +202,11 @@ body {
       color: $header-color;
       margin: 0 10px;
       padding: 15px 0;
+
+      &:hover {
+         background-color: rgba($btn-light, 1);
+         transition: .5s;
+      }
    }
 
    .c-footer__bottom {
